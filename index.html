@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panda Home</title>
+  <link rel="stylesheet" href="./jquery-ui/jquery-ui.css">
+  <link rel="stylesheet" href="./style/panda.css">
+  <script src="./jquery-ui/external/jquery/jquery.js"></script>
+  <script src="./jquery-ui/jquery-ui.js"></script>
+  <script src="./data/main-menu.js"></script>
+  <script src="./script/panda-menu.js"></script>
+  <script>
+    $("document").ready(function(){
+      f_prepare_menu();
+    });
+  </script>
+</head>
+<body>
+  <div id="panda-header-bar" class="ui-widget-header ui-corner-top">
+    <span id="panda-header-img"><img src="./image/panda.png"></img></span>
+    <span id="panda-welcome">Welcome Leme, your last login time is 2017-1-1 09:30.</span>
+    <ul id="panda-main-menu">
+    </ul>
+  </div>
+
+  <div id="panda-app-board">
+    <div>Your current location: <span id="current-location"></span></div>
+  </div>
+</body>
+</html>

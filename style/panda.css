@@ -1,0 +1,55 @@
+  #panda-header-bar {
+    width: 100%;
+    display: block;
+    position: relative;
+    height: 100px;
+    align-items: bottom;
+  }
+
+  #panda-app-board {
+    height: 700px;
+    padding: 10px;
+  }
+
+  #panda-header-img {
+    height: 100px;
+    padding: 10px;
+    vertical-align: top;
+  }
+
+  #panda-main-menu {
+    position: absolute;
+    bottom: -1px;
+    right: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #panda-welcome {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+  }
+
+  .ui-menu {
+    width: 160px;
+    text-align: left;
+  }
+
+  .ui-menu-item {
+    font-size: 10px;
+  }
+
+  .panda-menu-level-2 {
+    position: absolute;
+    top: 36px;
+    left: -1px;
+    margin: 0px;
+  }
+
+  .panda-menu-level-2-last {
+    position: absolute;
+    top: 36px;
+    right: -1px;
+    margin: 0px;
+  }
