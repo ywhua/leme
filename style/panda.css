@@ -11,12 +11,7 @@
   }
 
   #panda-login-form form {
-    padding-left: 30px;
     text-align: right;
-  }
-
-  #panda-login-form form img {
-    text-align: left;
   }
 
   #panda-login-form form input[type="submit"] {
