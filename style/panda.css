@@ -1,3 +1,33 @@
+  .panda-bamboo {
+    background-image: url(../image/bamboo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #panda-login-form {
+    position: absolute;
+    left: 35%;
+    top: 30%;
+  }
+
+  #panda-login-form form {
+    padding-left: 30px;
+    text-align: right;
+  }
+
+  #panda-login-form form img {
+    text-align: left;
+  }
+
+  #panda-login-form form input[type="submit"] {
+    width: 100%
+  }
+
+  #panda-login-form form div {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+
   #panda-header-bar {
     width: 100%;
     display: block;
